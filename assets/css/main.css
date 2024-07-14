@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
 /* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Montserrat", sans-serif;
   --font-secondary: "Poppins", sans-serif;
+  --font-logo:"Potta One", system-ui;
 }
 
 /* Colors */
@@ -35,7 +38,6 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -44,9 +46,39 @@ h6 {
   font-family: var(--font-primary);
 }
 
-/*--------------------------------------------------------------
-# Sections & Section Header
---------------------------------------------------------------*/
+shift-table th, .shift-table td {
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid var(--color-default);
+}
+.shift-table th {
+  background-color: var(--color-primary);
+  text-align: center;
+  color: #f2f2f2;
+}
+.shift-table td {
+  background-color: #ffffff;
+}
+.shift-table thead th {
+  border: 1px solid var(--color-default);
+}
+.shift-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.shift-table th, .shift-table td {
+  padding: 15px;
+}
+.table-responsive {
+  margin-top: 20px;
+}
+.container {
+  padding: 20px;
+}
+h3 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -299,10 +331,10 @@ section {
 .header .logo h1 {
   font-size: 30px;
   margin: 0;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: 0.8px;
   color: #fff;
-  font-family: var(--font-primary);
+  font-family: var(--font-logo);
 }
 
 .header .logo h1 span {
@@ -631,8 +663,8 @@ section {
 }
 
 .about .content ul li {
-  padding: 0 0 10px 30px;
   position: relative;
+  padding-left: 70px;
 }
 
 .about .content ul i {

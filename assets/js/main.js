@@ -293,22 +293,7 @@ new TypeIt("#type1", {
   loop: true,
   waitUntilVisible: true,
 })
-  .type("Abc", { delay: 400 })
-  .pause(500)
-  .delete(10)
-  .type("xyz", { delay: 400 })
-  .pause(500)
-  .delete(10)
-  .type("mnop", { delay: 400 })
-  .pause(500)
-  .delete(10)
-  .type("pqrsx", { delay: 400 })
-  .pause(500)
-  .delete(10)
-  .type("Lorem", { delay: 400 })
-  .pause(500)
-  .delete(10)
-  .type("Ipsum.", { delay: 400 })
+  .type("Amit Digital Library 2.0", { delay: 400 })
   .pause(500)
   .delete(10)
   .go();
