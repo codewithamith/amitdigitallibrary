@@ -279,9 +279,7 @@ section {
 }
 
 @media (max-width: 575px) {
-  .about .content ul li{
-    padding-left: 0;
-  }
+  
   .topbar .contact-info i a,
   .topbar .contact-info i span {
     font-size: 13px;
@@ -1237,6 +1235,9 @@ section {
   }
   #hero .animated {
     animation: none;
+  }
+  .about .content ul li{
+    padding-left: 0;
   }
 }
 
